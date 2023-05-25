@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "weniye.pythonanywhere.com",
-    "127.0.0.1:8000"
+    "127.0.0.1:8000",
+    "127.0.0.1"
 ]
 
 
@@ -42,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "corsheaders",
     "rest_framework",
-    "api"
+    "api",
+    "django_dump_load_utf8"
 ]
 
 MIDDLEWARE = [

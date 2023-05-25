@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Stock
+from .models import Stock, Course, CourseItem
 
 
 class StockSerializer(serializers.ModelSerializer):
@@ -7,3 +7,18 @@ class StockSerializer(serializers.ModelSerializer):
         model = Stock
         fields = ["id", "title", "descr"]
 
+
+class CourseItemSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CourseItem
+        fields = ["id", "title", "content"]
+
+
+
+class CourseSerializer(serializers.ModelSerializer):
+    course_items = CourseItemSerializer(many=True)
+    class Meta:
+        model = Course
+        fields = ["id", "title", "sub_title", "course_items"] 
+    
+    

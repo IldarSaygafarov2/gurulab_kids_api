@@ -1,0 +1,187 @@
+[
+    {
+        "model": "api.course",
+        "pk": 1,
+        "fields": {
+            "title": "3-5 лет",
+            "sub_title": "Раннее развитие детей"
+        }
+    },
+    {
+        "model": "api.course",
+        "pk": 2,
+        "fields": {
+            "title": "5-7 лет",
+            "sub_title": "Подготовка к обученю в школе"
+        }
+    },
+    {
+        "model": "api.course",
+        "pk": 3,
+        "fields": {
+            "title": "7-12 лет",
+            "sub_title": "Для юных школьников"
+        }
+    },
+    {
+        "model": "api.course",
+        "pk": 4,
+        "fields": {
+            "title": "13-16 лет",
+            "sub_title": "Старшие классы"
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 1,
+        "fields": {
+            "title": "Развитие речи",
+            "content": "Описание курса",
+            "course": 1
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 2,
+        "fields": {
+            "title": "Ознакомление с окружающим миром",
+            "content": "Описание курса",
+            "course": 1
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 3,
+        "fields": {
+            "title": "Изодеятельность",
+            "content": "Описание курса",
+            "course": 1
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 4,
+        "fields": {
+            "title": "Детское творчество",
+            "content": "Описание курса",
+            "course": 1
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 5,
+        "fields": {
+            "title": "Русский язык",
+            "content": "Описание курса",
+            "course": 2
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 6,
+        "fields": {
+            "title": "Математика",
+            "content": "Описание курса",
+            "course": 2
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 7,
+        "fields": {
+            "title": "Изодеятельность",
+            "content": "Описание курса",
+            "course": 2
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 8,
+        "fields": {
+            "title": "Детское творчество",
+            "content": "Описание курса",
+            "course": 2
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 9,
+        "fields": {
+            "title": "Иностранные языки",
+            "content": "Описание курса",
+            "course": 2
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 10,
+        "fields": {
+            "title": "Танцы",
+            "content": "",
+            "course": 2
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 11,
+        "fields": {
+            "title": "Группа продленного дня",
+            "content": "Описание курса",
+            "course": 3
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 12,
+        "fields": {
+            "title": "Репетиторство",
+            "content": "Описание курса",
+            "course": 3
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 13,
+        "fields": {
+            "title": "Хореография",
+            "content": "Описание курса",
+            "course": 3
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 14,
+        "fields": {
+            "title": "Иностранные языки",
+            "content": "Описание курса",
+            "course": 3
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 15,
+        "fields": {
+            "title": "Изобразительное искусство",
+            "content": "Описание курса",
+            "course": 3
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 16,
+        "fields": {
+            "title": "Репетиторство",
+            "content": "Описание курса",
+            "course": 4
+        }
+    },
+    {
+        "model": "api.courseitem",
+        "pk": 17,
+        "fields": {
+            "title": "Подготовка к вузу",
+            "content": "Описание курса",
+            "course": 4
+        }
+    }
+]

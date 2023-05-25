@@ -9,3 +9,20 @@ class Stock(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Course(models.Model):
+    title = models.CharField(max_length=150)
+    sub_title = models.CharField(max_length=150)
+
+    def __str__(self):
+        return self.title
+
+
+class CourseItem(models.Model):
+    title = models.CharField(max_length=120)
+    content = models.TextField(null=True, blank=True)
+    course = models.ForeignKey(Course, on_delete=models.CASCADE, null=True, related_name="course_items")
+
+    def __str__(self):
+        return f"{self.course.title}: {self.title}"
