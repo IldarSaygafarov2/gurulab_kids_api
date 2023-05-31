@@ -26,3 +26,11 @@ class CourseItem(models.Model):
 
     def __str__(self):
         return f"{self.course.title}: {self.title}"
+
+
+class TestModel(models.Model):
+    title = models.CharField(max_length=155)
+    content = models.TextField()
+
+    def __str__(self):
+        return self.title
